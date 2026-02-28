@@ -1,0 +1,44 @@
+# Consolidated .gitignore for UKK To Do List (Website & Mobile)
+
+# --- Website (Laravel) Rules ---
+/website/.phpunit.cache
+/website/node_modules
+/website/public/build
+/website/public/hot
+/website/public/storage
+/website/storage/*.key
+/website/storage/pail
+/website/vendor
+/website/.env
+/website/.env.backup
+/website/.env.production
+/website/.phpactor.json
+/website/.phpunit.result.cache
+/website/Homestead.json
+/website/Homestead.yaml
+/website/npm-debug.log
+/website/yarn-error.log
+/website/auth.json
+
+# --- Mobile (Flutter) Rules ---
+/mobile/taskmate/.dart_tool/
+/mobile/taskmate/.flutter-plugins
+/mobile/taskmate/.flutter-plugins-dependencies
+/mobile/taskmate/.pub-cache/
+/mobile/taskmate/.pub/
+/mobile/taskmate/build/
+/mobile/taskmate/coverage/
+/mobile/taskmate/migrate_working_dir/
+/mobile/taskmate/android/app/debug
+/mobile/taskmate/android/app/profile
+/mobile/taskmate/android/app/release
+/mobile/taskmate/*.iml
+/mobile/taskmate/*.ipr
+/mobile/taskmate/*.iws
+
+# General / IDE Rules
+.idea/
+.vscode/
+.DS_Store
+*.log
+Thumbs.db
